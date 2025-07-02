@@ -1,0 +1,56 @@
+body {
+  font-family: Arial;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  background-color: #222;
+  padding: 50px 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #00f7ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #000;
+}
+
+#scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+.light-theme {
+  background-color: #f9f9f9;
+  color: #000;
+}
+
+/* === Gallery Styles === */
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.gallery img,
+.gallery video {
+  width: 150px; /* smaller size */
+  border-radius: 10px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover,
+.gallery video:hover {
+  transform: scale(1.1);
+}
