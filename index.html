@@ -17,14 +17,18 @@
   <section id="portfolio">
     <h2>OUR PREVIOUS WORKS </h2>
     <div class="gallery">
-      <img src="AMG GT.png" alt="Edit 1">
-      <img src="porche 911.png" alt="Edit 2">
-      <img src="M5.png" alt="Edit 3">
+      <img src="AMG GT.png" alt="Edit 1" onclick="openPopup(this.src)" >
+      <img src="porche 911.png" alt="Edit 2" onclick="openPopup(this.src)">
+      <img src="M5.png" alt="Edit 3" onclick="openPopup(this.src)">
       <video controls>
         <source src="edit-video.mp4" type="video/mp4">
       </video>
     </div>
+    <!-- Image Preview Modal -->
+
   </section>
+
+  
 
   <section id="contact">
     <h2>Contact Me</h2>
@@ -35,5 +39,10 @@
   <button id="scrollTopBtn" onclick="scrollToTop()">⬆ Top</button>
 
   <script src="script.js"></script>
+  <!-- Image Preview Popup -->
+<div id="popup" class="popup" onclick="closePopup()">
+  <img id="popup-img" src="" alt="Full Preview">
+</div>
+
 </body>
 </html>
