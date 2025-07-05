@@ -43,7 +43,7 @@ button {
   padding: 20px;
 }
 
-{.gallery img,
+.gallery img,
 .gallery video {
   width: 100%;
 max-width: 250px;
@@ -51,26 +51,23 @@ max-width: 250px;
   border-radius: 10px;
   margin: 10px;
   transition: transform 0.3s ease;
-} 
+}
 
 .gallery img:hover,
 .gallery video:hover {
   transform: scale(1.1);
 }
 
- .gallery {
+  .gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-}
-
-/* Popup Styles (moved outside) */
+  
 .popup {
   display: none;
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 0; left: 0;
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.95);
@@ -84,4 +81,3 @@ max-width: 250px;
   max-height: 90%;
   border-radius: 10px;
 }
-
