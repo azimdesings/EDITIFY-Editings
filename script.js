@@ -32,6 +32,3 @@ function openPopup(src) {
 function closePopup() {
   document.getElementById("popup").style.display = "none";
 }
-
-
-
