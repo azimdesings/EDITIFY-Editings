@@ -43,7 +43,7 @@ button {
   padding: 20px;
 }
 
-.gallery img,
+{.gallery img,
 .gallery video {
   width: 100%;
 max-width: 250px;
@@ -51,7 +51,7 @@ max-width: 250px;
   border-radius: 10px;
   margin: 10px;
   transition: transform 0.3s ease;
-}
+} 
 
 .gallery img:hover,
 .gallery video:hover {
